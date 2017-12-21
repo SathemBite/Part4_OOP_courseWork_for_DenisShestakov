@@ -95,7 +95,6 @@ namespace Part2
         private int[] GetAttributeVals(DataGridViewRow row)
         {
             int[] paramVals = new int[4];
-
             for (int i = 1; i <= 4; i++)
             {
                 if (row.Cells[i].Value == null)
