@@ -125,7 +125,7 @@ namespace Part2
 
         private void AddRow(int ind, int col1, int col2, int col3, int col4)
         {
-            this.dGV.Rows.Add(
+            dGV.Rows.Add(
                 ind.ToString(),
                 col1.ToString(),
                 col2.ToString(),
